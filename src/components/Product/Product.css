@@ -1,0 +1,23 @@
+.item-container {
+  width: 260px;
+  height: 410px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.item-container img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+.btn-cart {
+  width: 96%;
+  border-radius: 10px;
+  background-color: aliceblue;
+  border: none;
+}
+.btn-cart:hover {
+  background-color: bisque;
+  transition: 0.5s;
+}

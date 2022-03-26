@@ -18,24 +18,23 @@
   position: sticky;
   top: 0;
   text-align: center;
-  background-color: #e9ebec;
+  background-color: #d8dbdd;
   border: 1px solid #e9ebec;
   height: 350px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 .font-color {
-  color: #62899a;
+  color: #37a5d4;
 }
 .cart-button {
   width: 75%;
   margin-bottom: 5px;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: aliceblue;
 }
 .cart-button .button-text {
-  /* margin-top: 5px; */
   text-align: center;
   color: blue;
   font-weight: 700;
@@ -43,9 +42,9 @@
 .cart-button:hover {
   background-color: bisque;
   transition: 0.5s;
+  cursor: pointer;
 }
 .sidebar {
-  /* padding-top: 2px; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;

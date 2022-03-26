@@ -1,10 +1,15 @@
 .item-container {
   width: 260px;
   height: 410px;
-  border: 1px solid grey;
+  box-shadow: 5px 5px 25px grey;
   border-radius: 10px;
+  margin-bottom: 15px;
   padding-left: 19px;
   padding-top: 15px;
+  transition: transform ease-out 1s;
+}
+.item-container:hover {
+  transform: scale(1.1);
 }
 .item-container img {
   width: 240px;
@@ -13,7 +18,7 @@
 }
 .btn-cart {
   width: 92%;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: aliceblue;
   border: none;
   display: flex;
@@ -28,4 +33,5 @@
 .btn-cart:hover {
   background-color: bisque;
   transition: 0.5s;
+  cursor: pointer;
 }

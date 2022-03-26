@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from "react";
+import { pickOne } from "../../utilities/picOne/PicOne";
 import Product from "../Product/Product";
 import "./Shop.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDeleteLeft } from "@fortawesome/free-solid-svg-icons";
 
 const Shop = () => {
   const [products, setProducts] = useState([]);
   const [watches, setWatch] = useState([]);
-  console.log(watches);
+  // const [items, setItems] = useState([]);
+  // console.log(items);
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
@@ -14,9 +18,6 @@ const Shop = () => {
   const addToCartHandler = (product) => {
     const newCart = [...watches, product];
     setWatch(newCart);
-    // const watchName = product.name;
-    // const newWatch = [...watch, product];
-    // setWatch(newWatch);
   };
   return (
     <div className="shop-container">
@@ -32,9 +33,16 @@ const Shop = () => {
       <div className="cart-container">
         <h3 className="font-color">Selected Watches</h3>
         {watches.map((watch) => (
-          <h4 key={watch.id}>{watch.name}</h4>
+          <div className="sidebar" key={watch.id}>
+            <img src={watch.img} alt="" />
+            <h4 key={watch.id}>{watch.name}</h4>
+            <FontAwesomeIcon
+              className="delete"
+              icon={faDeleteLeft}
+            ></FontAwesomeIcon>
+          </div>
         ))}
-        <button className="cart-button">
+        <button onClick={() => pickOne()} className="cart-button">
           <p className="button-text">PICK 1 FOR ME</p>
         </button>
         <br />

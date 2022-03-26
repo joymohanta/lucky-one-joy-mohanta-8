@@ -1,54 +1,54 @@
 [
     {
-      "id": "623e16cf6a1b6f2a3ac006451",
+      "id": 1,
       "img": "https://www.kindpng.com/picc/m/622-6224922_spotify-on-apple-watch-black-apple-smart-watch.png",
       "price": 293,
       "name": "Apple Series 6"
     },
     {
-      "id": "623e16cf103469501acc82e22",
+      "id": 2,
       "img": "https://www.galaxcommerce.com.br/sistema/upload/2393/produtos/relogio-smartwatch-apple-watch-f8_2020-11-13_13-12-05_0_397.png",
       "price": 339,
       "name": "Apple New ES2"
     },
     {
-      "id": "623e16cf01176e92dee11e3a3",
+      "id": 3,
       "img": "https://www.litoscreen.com/uploadfile/201810/05/da4ad53ab54766329770d004800d7124_medium.jpg",
       "price": 313,
       "name": "Apple Glossy S"
     },
     {
-      "id": "623e16cf09bd332a188b9f944",
+      "id": 4,
       "img": "https://pngimg.com/uploads/watches/watches_PNG9905.png",
       "price": 240,
       "name": "Sony M SERIES"
     },
     {
-      "id": "623e16cf09bd332a188b9f945",
+      "id": 5,
       "img": "https://www.pngmart.com/files/13/Smartwatch-Gadget-PNG-Clipart.png",
       "price": 182,
       "name": "Samsung Vivid"
     },
     {
-      "id": "623e16cf09bd332a188b9f946",
+      "id": 6,
       "img": "https://domrelogio.com.br/wp-content/uploads/2020/10/03.png",
       "price": 210,
       "name": "Swis Sport TN3"
     },
     {
-      "id": "623e16cf09bd332a188b9f947",
+      "id": 7,
       "img": "https://hocotech.com/wp-content/uploads/2021/11/hoco-y1-smart-watch-buckle.jpg",
       "price": 219,
       "name": "Swis Sport GR5"
     },
     {
-      "id": "623e16cf09bd332a188b9f90148",
+      "id": 8,
       "img": "https://s3.amazonaws.com/s3.etukuri.mv/p9agyKd5/1bnutq7j.jpg",
       "price": 129,
       "name": "Sporty ESR R51"
     },
     {
-      "id": "623e16cf09bd332a188b9f901101",
+      "id": 9,
       "img": "https://cdn.shopify.com/s/files/1/0013/2343/4071/products/A_2_4d66504d-2bfc-48b8-a9eb-38dadc14b6fe_1600x.png?v=1630772650",
       "price": 175,
       "name": "Sporty Glossy7"

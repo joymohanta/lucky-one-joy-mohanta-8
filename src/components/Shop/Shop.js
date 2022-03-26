@@ -4,17 +4,19 @@ import "./Shop.css";
 
 const Shop = () => {
   const [products, setProducts] = useState([]);
-  const [watch, setWatch] = useState([]);
+  const [watches, setWatch] = useState([]);
+  console.log(watches);
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
   const addToCartHandler = (product) => {
-    console.log(product.name);
+    const newCart = [...watches, product];
+    setWatch(newCart);
     // const watchName = product.name;
-    const newWatch = [...watch, product];
-    setWatch(newWatch);
+    // const newWatch = [...watch, product];
+    // setWatch(newWatch);
   };
   return (
     <div className="shop-container">
@@ -28,14 +30,16 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <h3>Selected Watches {watch.length} </h3>
-        <p>Name: {watch.name} </p>
+        <h3 className="font-color">Selected Watches</h3>
+        {watches.map((watch) => (
+          <h4 key={watch.id}>{watch.name}</h4>
+        ))}
         <button className="cart-button">
           <p className="button-text">PICK 1 FOR ME</p>
         </button>
         <br />
         <button className="cart-button">
-          <p className="button-text">CHOOSE AGAIN</p>
+          <p className="button-text">PICK AGAIN</p>
         </button>
       </div>
     </div>

@@ -1,8 +1,10 @@
-# Exclusiv Watches
+# Exclusive Watches
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Scripts & Live Link
+
+Click here to see live site:
 
 In the project directory, you can run:
 

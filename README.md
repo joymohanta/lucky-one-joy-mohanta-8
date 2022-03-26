@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts & Live Link
 
-Click here to see live site:
+Click here to see live site: [https://heartfelt-cascaron-fc11c5.netlify.app/]
 
 In the project directory, you can run:
 
